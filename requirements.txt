@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+tflite-runtime
+pyserial
+pytest
+black
+flake8
