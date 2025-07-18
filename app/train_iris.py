@@ -23,5 +23,5 @@ print("테스트 정확도: {:.2f}".format(accuracy_score(y_test, y_pred)))
 print("분류 리포트:\n", classification_report(y_test, y_pred, target_names=iris.target_names))
 
 # 5. 모델 저장
-joblib.dump(clf, "/workspace/app/iris_mlp.joblib")
+joblib.dump(clf, "iris_mlp.joblib")
 print("모델이 /workspace/app/iris_mlp.joblib 로 저장되었습니다.")
